@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jednoduchá úvodní stránka pro vyhledávání Google.">
+  <title>Google Search</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body class="search-page">
+  <header class="site-header">
+    <nav aria-label="Hlavní navigace">
+      <a href="images.html">Obrázky</a>
+      <a href="advanced.html">Rozšířené vyhledávání</a>
+      <a href="forms.html">Formuláře</a>
+    </nav>
+  </header>
+
+  <main class="home-main">
+    <h1 class="wordmark" aria-label="Google">Google</h1>
+    <form class="search-form" action="https://www.google.com/search" method="get">
+      <label class="visually-hidden" for="search-query">Hledat na Googlu</label>
+      <input class="search-input" id="search-query" type="search" name="q" title="Hledat" autocomplete="off" autofocus>
+      <div class="search-actions">
+        <button class="button" type="submit">Hledat Google</button>
+        <button class="button" type="submit" name="btnI" value="1">Zkusím štěstí</button>
+      </div>
+    </form>
+    <p class="note">Vyhledávání odesílá zadaný dotaz přímo službě Google.</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-links">
+      <a class="portfolio-link" data-portfolio-link>Portfolio</a>
+      <a href="citace.md" data-citations-link>Citace a zdroje</a>
+      <a href="https://validator.w3.org/nu/" data-html-validator>Validace HTML</a>
+      <a href="https://jigsaw.w3.org/css-validator/" data-css-validator>Validace CSS</a>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Pokročilé možnosti vyhledávání Google.">
+  <title>Rozšířené vyhledávání</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav aria-label="Hlavní navigace">
+      <a href="index.html">Google Search</a>
+      <a href="images.html">Obrázky</a>
+      <a href="forms.html">Formuláře</a>
+    </nav>
+  </header>
+
+  <main class="advanced-main">
+    <h1>Rozšířené vyhledávání</h1>
+    <p class="advanced-intro">Najděte stránky s konkrétními slovy nebo frázemi.</p>
+    <form class="advanced-form" action="https://www.google.com/search" method="get">
+      <label for="all-words">Všechna tato slova:</label>
+      <input id="all-words" type="text" name="as_q">
+
+      <label for="exact-phrase">Přesně toto slovo nebo fráze:</label>
+      <input id="exact-phrase" type="text" name="as_epq">
+
+      <label for="any-words">Kterékoli z těchto slov:</label>
+      <input id="any-words" type="text" name="as_oq">
+
+      <label for="none-words">Žádné z těchto slov:</label>
+      <input id="none-words" type="text" name="as_eq">
+
+      <button class="advanced-button" type="submit">Rozšířené vyhledávání</button>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-links">
+      <a class="portfolio-link" data-portfolio-link>Portfolio</a>
+      <a href="citace.md" data-citations-link>Citace a zdroje</a>
+      <a href="https://validator.w3.org/nu/" data-html-validator>Validace HTML</a>
+      <a href="https://jigsaw.w3.org/css-validator/" data-css-validator>Validace CSS</a>
+    </div>
+  </footer>
+</body>
+</html>
