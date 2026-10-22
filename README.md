@@ -18,4 +18,4 @@ Potom navštivte `http://localhost:8000/`.
 
 Odkazy na validátory se po načtení stránky nastaví tak, aby validovaly aktuální stránku a její stylesheet. Odkaz na citace se při hostování na GitHub Pages změní na soubor v repozitáři.
 
-Před odevzdáním doplňte URL portfolia do proměnné `portfolioUrl` v `app.js`. Je také potřeba vytvořit repozitář `googlesearch` pod vlastním GitHub účtem a povolit GitHub Pages pro větev `main` z kořenové složky.
+Portfolio je publikované na adrese <https://onndrys.github.io/github/> a jeho odkaz je přidaný na všechny stránky. Repozitář tohoto projektu je publikovaný přes GitHub Pages z větve `main` a kořenové složky.

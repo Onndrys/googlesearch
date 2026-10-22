@@ -1,4 +1,4 @@
-const portfolioUrl = "";
+const portfolioUrl = "https://onndrys.github.io/github/";
 
 for (const link of document.querySelectorAll("[data-html-validator]")) {
   link.href = `https://validator.w3.org/nu/?doc=${encodeURIComponent(window.location.href)}`;
